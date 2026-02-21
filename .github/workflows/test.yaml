@@ -11,8 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: smaple name for test
-        run: npm start
       
       - run: npm run test
       - run: npm start
